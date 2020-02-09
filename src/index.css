@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #696f7a;
+}
+
+li {
+  list-style: none;
+}
+
+i.flag {
+  font-size: 4rem;
+  width: 7rem;
+  height: 7rem;
+  padding: 0 0.5rem;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 1rem !important;
 }
